@@ -1,0 +1,130 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Body and Container */
+body {
+    background-color:hsl(256, 48%, 43%);
+    color: hsl(0, 9%, 90%);
+}
+
+.container {
+    width: 90%; 
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* About Section */
+.about {
+    background-color: #543d92;
+    padding: 60px 0;
+}
+
+/* Skills Section */
+.skills {
+    background-color: #1a0d64;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.skill-item {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+.projects .project-card {
+    background: #1a015f;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.project-card a {
+    text-decoration: none;
+    color: #faf9fc;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Contact Section */
+.contact {
+    background: #333;
+    color: #fff;
+}
+
+.contact-btn {
+    display: inline-block;
+    background-color: #0b063b;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.social-links a {
+    color: #00b894;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
